@@ -5,12 +5,14 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 
 function App() {
   return (
     <div className="App">
-      <FunctionClick/>
-      <ClassClick/>
+      <EventBind/>
+      {/* <FunctionClick/>
+      <ClassClick/> */}
       {/* <Greet name="dps" height="5.11'">
         <p>This is children props</p>
       </Greet>
@@ -20,8 +22,8 @@ function App() {
       <Greet name="as" height="5.9'"/>
       <Welcome topic="react" subtopic="props"/>
       <Welcome topic="react1" subtopic="props1"/> */}
-      <Message/>
-      <Counter/>
+      {/* <Message/>
+      <Counter/> */}
     </div>
   );
 }
