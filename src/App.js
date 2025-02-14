@@ -1,19 +1,27 @@
-import './App.css';
-import Greet from './components/Greet';
-import Welcome from './components/Welcome';
-import Message from './components/Message';
-import Counter from './components/Counter';
-import FunctionClick from './components/FunctionClick';
-import ClassClick from './components/ClassClick';
-import EventBind from './components/EventBind';
-import ParentComponent from './components/ParentComponent';
-import UserGreeting from './components/UserGreeting';
-import ListName from './components/ListName';
+import "./App.css";
+import Greet from "./components/Greet";
+import Welcome from "./components/Welcome";
+import Message from "./components/Message";
+import Counter from "./components/Counter";
+import FunctionClick from "./components/FunctionClick";
+import ClassClick from "./components/ClassClick";
+import EventBind from "./components/EventBind";
+import ParentComponent from "./components/ParentComponent";
+import UserGreeting from "./components/UserGreeting";
+import ListName from "./components/ListName";
+import StyleSheet from "./components/StyleSheet";
+import Inline from "./Inline";
+import "./appStyles.css";
+import styles from "./appStyles.module.css";
 
 function App() {
   return (
     <div className="App">
-      <ListName/>
+      <h1 className='error'>ERROR</h1>
+      <h1 className={styles.success}>SUCCESS</h1>
+      <Inline />
+      {/* <StyleSheet primary={true}/> */}
+      {/* <ListName/> */}
       {/* <UserGreeting/> */}
       {/* <ParentComponent/> */}
       {/* <EventBind/> */}
